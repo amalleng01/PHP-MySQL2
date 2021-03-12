@@ -1,0 +1,17 @@
+body {
+  width: 100%;
+  background-color: rgb(92, 140, 243);
+}
+
+.crearModificarJugador,
+.crearModificarCampio,
+.crearModificarBatalla,
+.eliminar {
+  box-shadow: 5px 5px rgb(111, 181, 206);
+  color: white;
+  float: left;
+  width: 25%;
+  margin: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
