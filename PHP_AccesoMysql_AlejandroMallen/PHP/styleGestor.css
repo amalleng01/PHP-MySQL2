@@ -1,0 +1,102 @@
+body {
+  width: 100%;
+  background-color: rgb(56, 43, 233);
+}
+
+.crearModificarJugador, .crearModificarCampio, .crearModificarBatalla, .eliminar {
+ border: 1px solid rgb(111, 181, 206);
+ border-radius: 7px;
+  float: left;
+  width: 21%;
+  margin: 5px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  text-decoration: underline solid rgb(9, 42, 70);
+  box-shadow: 5px 5px  rgb(119, 94, 211);
+}
+
+.crearModificarJugador{
+  background-color: chartreuse;
+}
+
+.crearModificarCampio{
+  background-color: chocolate;
+}
+
+.crearModificarBatalla{
+  background-color: crimson;
+}
+
+.eliminar{
+  background-color: dodgerblue;
+}
+
+
+table, td, th {
+  border: 1px solid rgb(5, 48, 88);
+  background-color: #d7f4f8;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input[type=text]{
+  border: 2px solid rgb(9, 42, 70);
+  background-color: #59c9fd;
+  border-radius: 4px;
+}
+
+input[type=date]{
+  border: 2px solid rgb(9, 42, 70);
+  background-color: #59c9fd;
+  border-radius: 4px;
+}
+
+input[type=number]{
+  border: 2px solid rgb(9, 42, 70);
+  background-color: #59c9fd;
+  border-radius: 4px;
+}
+
+input[type=submit]{
+  border: 2px solid rgb(9, 42, 70);
+  background-color: #4b6672;
+  border-radius: 4px;
+}
+
+header{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline overline dotted rgba(132, 216, 184, 0.425);
+  color: white;
+  
+}
+
+aside{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  padding: 1%;
+  background-color: green;
+  border: 3px solid rgb(9, 42, 70);
+}
+
+.jugadors > h3{
+  color: white;
+}
+
+.relacions > h3{
+  color: white;
+}
+
+.campions > h3{
+  color: white;
+}
+
+section{
+  padding-bottom: 30px;
+}
+
+
